@@ -1,0 +1,215 @@
+
+
+
+.factory {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(135deg, rgba(34,193,195,1) 0%,     rgba(253,187,45,1) 100%);
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+input typ
+
+.factory > input {
+  margin-top: 20px;
+  width: 600px;
+  height: 50px;
+  font-size: 20px;
+  padding-left: 10px;
+  display: inline-block;
+  flex-direction: column;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 4px 8px 0 black;
+  transition: 0.3s;
+  ;
+  
+}
+  
+.factory ::placeholder {
+    color: black;
+    font-size: 1.2em;
+  }
+
+  
+
+
+.factory :hover {
+    transition: 0.3s;
+    border: #d4d4d4 solid;
+    color: black;
+    opacity: 0.97;
+}
+
+.factory p {
+  margin: 10px;
+  font-size: 10px;
+  display: inline-block;
+  flex-direction: column;
+  padding: 40px;
+  margin: 20px;
+  box-shadow: 0 4px 8px 0 black;
+  transition: 0.3s;
+  font-size: 15px;
+  text-align: center;
+  
+  
+}
+
+.user {
+  padding: 100px 16px;
+  border: 2px black solid;
+  width: 550px;
+  height: 550px;
+  display: inline-block;
+  flex-direction: column;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 4px 8px 0 black;
+  padding-top: 10px;
+  
+  
+  
+  
+
+}
+
+.user p {
+  border: 1px black solid;
+  height: 25px;
+  width: 90%;
+  align-items: center;
+  padding-top: 5px;
+  font-size: 15px;
+  background-color: white;
+  
+  
+  
+}
+.user div {
+  border: 1px black solid;
+  height: 180px;
+  width: 400px;
+  align-items: center;
+  padding-left: 5px;
+  padding-top: 5px;
+  margin-left: 25px;
+  
+ 
+}
+
+
+.btn-submit {
+  
+  display:inline-block;
+  padding:0.35em 1.2em;
+  margin:0 0.3em 0.3em 0;
+  box-sizing: border-box;
+  font-weight:300;
+  text-align:center;
+  transition: all 0.2s;
+  color: black;
+  height: 30px;
+  width: 98%;
+  padding: 5px 5px 5px 5px;
+  font-size: 10px;
+  margin-top: 15px;
+  border: transparent;
+  
+
+  }
+
+ 
+
+  .btn-submit :hover {
+    transition: 0.1s;
+    border: #d4d4d4 solid;
+ 
+}
+
+  div .country {
+    border: 1px black solid;
+    height: 30px;
+    width: 88%;
+    align-items: center;
+    padding-top: 5px;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 21px;
+    
+    
+  }
+
+  div .products {
+    border: 1px black solid;
+    height: 50px;
+    width: 88%;
+    align-items: center;
+    padding-top: 5px;
+    font-size: 15px;
+    padding-top: 4px;
+    margin-top: 5px;
+    margin-left: 21px;
+}
+
+div .email {
+  border: 1px black solid;
+  height: 30px;
+  width: 88%;
+  align-items: center;
+  padding-top: 5px;
+  font-size: 15px;
+  padding-top: 4px;
+  margin-top: 5px;
+  margin-left: 21px;
+}
+
+div .address {
+  border: 1px black solid;
+  height: 45px;
+  width: 88%;
+  align-items: center;
+  padding-top: 5px;
+  font-size: 15px;
+  padding-top: 4px;
+  margin-top: 5px;
+  margin-left: 21px;
+}
+
+
+
+.login-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(135deg, rgba(34,193,195,1) 0%,     rgba(253,187,45,1) 100%);
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type=email], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+img {
+  height: 200px;
+  width: 500px;
+  border: 1px white;
+}

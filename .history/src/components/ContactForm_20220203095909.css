@@ -1,0 +1,37 @@
+.form-contact {
+    background-color: black;
+    height: 250px;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+button[type=submit] {
+    background-color: black;
+    border: none;
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+    border: 2px solid white;
+    margin-left: 20px;
+    margin-top: 10px;
+
+
+}
+
+.name input {
+
+}
+
+
+.email input {
+
+}
+
+.message textarea {
+
+}

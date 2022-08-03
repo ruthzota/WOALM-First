@@ -1,0 +1,2 @@
+const nodemailer = required ('nodemailer')
+
